@@ -1,7 +1,8 @@
 sudo apt-get update
 sudo apt-get install cmake
 sudo apt-get install g++
-tar -xvf SequencesClusteringTool-master.zip
+sudo apt-get install unzip
+unzip SequencesClusteringTool.zip 
 cd SequencesClusteringTool-master/
 mkdir build
 cd build
