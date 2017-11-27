@@ -13,6 +13,7 @@ unzip fluxSimExpressed.fa.faa.zip
 unzip SPAdes_transcripts_merged.fasta.unique.zip
 unzip cufflinks_transcripts.fasta.unique.faa.zip
 unzip stringTie_transcripts.fasta.unique.faa.zip
+unzip consensus.fasta.faa.unique.zip
 
 #Experiment 1
 cd SequencesClusteringTool/build/
@@ -33,3 +34,7 @@ nohup ./seq_anlyzer_DT_1_NL_3_LT_2_NHT_32_NHB_14_NP_300_TH_70_PT_SparseVectorFlo
 #Experiment 5
 cd SequencesClusteringTool/build/
 nohup ./seq_anlyzer_DT_1_NL_3_LT_2_NHT_32_NHB_14_NP_300_TH_70_PT_SparseVectorFloat 2 ../../fluxSimExpressed.fa.faa.unique fasta ../../stringTie_transcripts.fasta.unique.faa fasta 70 1 > stringtie_edlib_results.txt & 
+
+#Experiment 6
+cd SequencesClusteringTool/build/
+nohup ./seq_anlyzer_DT_1_NL_3_LT_2_NHT_32_NHB_14_NP_300_TH_70_PT_SparseVectorFloat 0 ../../consensus.fasta.faa.unique fasta 0 1 70 10000 > clusters_status.txt & 
