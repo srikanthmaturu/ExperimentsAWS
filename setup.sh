@@ -42,7 +42,7 @@ nohup ./seq_anlyzer_DT_1_NL_3_LT_2_NHT_32_NHB_14_NP_300_TH_70_PT_SparseVectorFlo
 #Experiment 7
 cd SequencesClusteringTool/build/
 make seq_anlyzer_NL_5_LT_2_NHT_32_NHB_11_NP_300_TH_150_PT_DenseVectorFloat
-nohup ./seq_anlyzer_NL_5_LT_2_NHT_32_NHB_11_NP_300_TH_150_PT_DenseVectorFloat 1 ../../SPAdes_transcripts_merged.fasta.unique fasta ../../SPAdes_transcripts_merged.fasta.unique fasta 0 0 150 1 > soapdenovo_falconn_dna.txt &
+nohup ./seq_anlyzer_NL_5_LT_2_NHT_32_NHB_11_NP_300_TH_150_PT_DenseVectorFloat 1 ../../fluxSimExpressed.fa.unique fasta ../../SPAdes_transcripts_merged.fasta.unique fasta 0 0 150 1 > soapdenovo_falconn_dna.txt &
 
 #Experiment 8
 cd SequencesClusteringTool/build/
